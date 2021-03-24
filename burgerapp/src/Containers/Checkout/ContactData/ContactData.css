@@ -1,0 +1,29 @@
+
+  
+.orderForm{
+    text-align: center;
+    width:50%;
+    margin: 10px 350px;
+    padding:10px;
+    border: 1px solid #ccc;
+    display: block;
+    box-shadow: 2px 2px #ccc;
+    
+
+}
+.Label{
+font-weight: bold;
+display: block;
+}
+
+
+@media(max-width:500px)
+{
+    
+    .orderForm{
+        width:70%;
+        margin: 2px 45px;
+       
+    
+    }
+}

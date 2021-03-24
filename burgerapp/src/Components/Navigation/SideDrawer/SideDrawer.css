@@ -1,0 +1,45 @@
+.SideDrawer{
+    top:0px;;
+    left:0;
+    background-color:white;
+    width:200px;
+    height:800px;
+    padding: 50px 1px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+     position: fixed;
+    z-index: 200;
+   
+    }
+
+.Open{
+    transform: translateX(0);
+}
+
+.Close{
+    transform: translateX(-100%);
+}
+
+.Logo{
+  
+    margin-left: 10px;
+}
+.NavigationItems{
+    
+   margin-top: 20px;
+  }
+
+.NavigationItem a{
+    
+    color:cornflowerblue
+
+   }
+@media(min-width:500px)
+{
+    .SideDrawer{
+        display: none;
+    }
+
+    
+
+}

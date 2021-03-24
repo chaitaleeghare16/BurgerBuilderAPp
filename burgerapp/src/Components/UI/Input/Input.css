@@ -1,0 +1,21 @@
+.formELement{
+    padding:10px;
+    
+    
+   
+}
+.inputElement{
+    width:100%;
+    box-sizing: border-box;
+    padding:10px  
+    
+}
+.inputElement:focus{
+    background-color: #ccc;
+}
+.inValid{
+    background-color: rgb(233, 145, 145);
+}
+.errorMessage{
+    color:red
+}
